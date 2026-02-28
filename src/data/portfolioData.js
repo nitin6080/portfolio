@@ -92,7 +92,7 @@ export const portfolioData = {
       period: "2023 – Present",
       type: "Full-time",
       description:
-        "Leading front-end development for enterprise platforms with focus on performance and scalability.",
+        "Contributong to front-end development for enterprise platforms with focus on performance and scalability.",
       achievements: [
         "Developed scalable front-end modules for enterprise platforms, improving load times and maintaining top-tier Core Web Vitals (LCP/CLS)",
         "Implemented modular components using React.js, Redux and Tailwind CSS, ensuring accessibility, responsiveness and maintainability",
@@ -138,7 +138,7 @@ export const portfolioData = {
         "Collaborated within a team to design and implement pixel-perfect, responsive front-end experiences for key corporate and client websites.",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-      technologies: ["React.js", "Next.js", "Tailwind CSS", "Redux"],
+      technologies: ["React.js", "Next.js", "Tailwind CSS", "Redux", "React/TanStack Query"],
       features: [
         "Pixel-perfect responsive design",
         "Optimal Core Web Vitals scores",
