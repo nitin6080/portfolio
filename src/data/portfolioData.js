@@ -4,7 +4,7 @@ export const portfolioData = {
   // Personal Information
   personal: {
     name: "Nitin Kumar",
-    title: "Front-End Engineer",
+    title: "Front-End Engineer / Front-End Dev",
     tagline: "Crafting Scalable Solutions, One Pixel at a Time",
     location: "Bengaluru, India",
     email: "nitin.ku25@gmail.com",
@@ -86,7 +86,7 @@ export const portfolioData = {
   experience: [
     {
       id: 1,
-      title: "Front-End Web Developer",
+      title: "Associate Software Developer",
       company: "VMA Labs Pvt. Ltd.",
       location: "Bengaluru",
       period: "2023 – Present",
