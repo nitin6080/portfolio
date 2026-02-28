@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X, Code2, Activity } from 'lucide-react';
 import  Button  from './../shared/button';
 
 const Navbar = () => {
@@ -80,7 +80,8 @@ const Navbar = () => {
               </Link>
             ))}
             <Link to="/live-projects">
-              <Button className="ml-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white">
+              <Button className="ml-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white py-2! px-3! rounded-lg! tracking-wide font-medium font-inter italic text-sm flex gap-1 items-center">
+                <Activity size={18}/>
                 Live Projects
               </Button>
             </Link>

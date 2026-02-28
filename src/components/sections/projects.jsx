@@ -184,9 +184,9 @@ const Projects = () => {
           <div className="relative bg-slate-800/50 backdrop-blur-sm border border-cyan-500/30 rounded-3xl p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-3xl font-bold text-white mb-4">
+                <h3 className="text-3xl font-bold text-white mb-4 tracking-wide">
                   Explore Live{" "}
-                  <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
                     Projects
                   </span>
                 </h3>
@@ -196,7 +196,7 @@ const Projects = () => {
                   real-world problem-solving.
                 </p>
                 <Link to="/live-projects">
-                  <Button className="tracking-wide group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-6 text-lg flex gap-1 items-center">
+                  <Button className="tracking-wide group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-3 text-lg flex gap-1 items-center">
                     View Live Projects
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
