@@ -79,7 +79,7 @@ const Skills = () => {
                     <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-lg group-hover:scale-110 transition-transform duration-300">
                       <IconComponent className="w-6 h-6 text-cyan-400" />
                     </div>
-                    <h3 className="text-xl font-bold text-white">
+                    <h3 className="text-xl tracking-wide font-semibold text-white">
                       {category.category}
                     </h3>
                   </div>
@@ -145,7 +145,7 @@ const Skills = () => {
             <span className="text-slate-400 text-sm">
               Constantly learning and exploring new technologies
             </span>
-            <span className="text-cyan-400">🚀</span>
+            <span className="text-cyan-400"><LucideIcons.Rocket/> </span>
           </div>
         </div>
       </div>
