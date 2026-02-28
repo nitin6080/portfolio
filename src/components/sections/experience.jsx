@@ -52,7 +52,7 @@ const Experience = () => {
             </span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            {experience.length}+ years of professional experience building
+            {experience.length+1} years of professional experience building
             enterprise applications
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 mx-auto rounded-full mt-4" />
