@@ -75,7 +75,7 @@ const LiveProjects = () => {
                 key={index}
                 className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-xl p-6 text-center hover:border-cyan-500/50 transition-all duration-300"
               >
-                <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-2">
+                <div className="text-3xl font-bold bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent mb-2">
                   {stat.value}
                 </div>
                 <div className="text-sm text-slate-400">{stat.label}</div>

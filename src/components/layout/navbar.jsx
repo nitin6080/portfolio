@@ -27,7 +27,7 @@ const Navbar = () => {
     { name: 'Experience', path: '/', hash: '#experience' },
     { name: 'Projects', path: '/', hash: '#projects' },
     { name: 'Contact', path: '/', hash: '#contact' },
-    { name: 'Live Projects', path: '/', hash: '#live-projects' },
+    // { name: 'Live Projects', path: '/', hash: '#live-projects' },
   ];
 
   // Smooth scroll handler for anchor links
@@ -54,14 +54,14 @@ const Navbar = () => {
           {/* Logo Section */}
           <Link
             to="/"
-            className="flex items-center space-x-2 group"
+            className="flex items-center space-x-2 group bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent animate-gradient"
             onClick={() => handleNavClick('#home')}
           >
             <div className="relative">
               <Code2 className="w-8 h-8 text-cyan-400 transition-transform duration-300 group-hover:rotate-180" />
               <div className="absolute inset-0 bg-cyan-400/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            <span className="text-xl font-bold ">
               NK
             </span>
           </Link>
@@ -73,10 +73,10 @@ const Navbar = () => {
                 key={link.name}
                 to={link.path}
                 onClick={() => handleNavClick(link.hash)}
-                className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors duration-200 relative group"
+                className="px-4 py-2 text-sm font-normal tracking-wider text-slate-300 hover:bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text hover:text-transparent animate-gradient transition-colors duration-200 relative group"
               >
                 {link.name}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-500 group-hover:w-full transition-all duration-300" />
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 group-hover:w-full transition-all duration-300" />
               </Link>
             ))}
             <Link to="/live-projects">

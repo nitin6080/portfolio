@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-// import { portfolioData } from "../data/mock";
 import { Briefcase, MapPin, Calendar, ChevronRight } from "lucide-react";
 import { portfolioData } from "../../data/portfolioData";
 
@@ -41,14 +40,14 @@ const Experience = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2
-            className={`text-4xl md:text-5xl font-bold text-white mb-4 transition-all duration-700 ${
+            className={`text-4xl md:text-5xl font-bold font-poppins tracking-wide text-white mb-4 transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
             }`}
           >
             Work{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
               Experience
             </span>
           </h2>
@@ -56,7 +55,7 @@ const Experience = () => {
             {experience.length}+ years of professional experience building
             enterprise applications
           </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mt-4" />
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 mx-auto rounded-full mt-4" />
         </div>
 
         {/* Timeline */}

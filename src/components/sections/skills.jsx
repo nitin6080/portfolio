@@ -40,22 +40,22 @@ const Skills = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2
-            className={`text-4xl md:text-5xl font-bold text-white mb-4 transition-all duration-700 ${
+            className={`text-4xl md:text-5xl font-bold font-montserrat text-white mb-4 transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
             }`}
           >
             Technical{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              Skills
+            <span className="bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
+              Arsenal
             </span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
             A comprehensive toolkit for building modern, scalable web
             applications
           </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mt-4" />
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 mx-auto rounded-full mt-4" />
         </div>
 
         {/* Skills grid */}
@@ -112,7 +112,7 @@ const Skills = () => {
 
                           {/* Progress fill */}
                           <div
-                            className="absolute inset-y-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full transition-all duration-1000 ease-out"
+                            className="absolute inset-y-0 left-0 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 rounded-full transition-all duration-1000 ease-out"
                             style={{
                               width: isVisible ? `${tech.level}%` : "0%",
                               transitionDelay: `${categoryIndex * 200 + techIndex * 100}ms`,

@@ -1,19 +1,24 @@
 import React from "react";
+import clsx from "clsx";
 
-const Input = ({ label, type = "text", placeholder, value, onChange }) => {
-  return (
-    <div className="flex flex-col gap-2 w-full">
-      {label && <label className="text-sm font-medium">{label}</label>}
-
+const Input = React.forwardRef(
+  ({ className, type = "text", ...props }, ref) => {
+    return (
       <input
+        ref={ref}
         type={type}
-        placeholder={placeholder}
-        value={value}
-        onChange={onChange}
-        className="border rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-black"
+        className={clsx(
+          "w-full rounded-xl border border-slate-600 bg-slate-900/70 px-4 py-3",
+          "text-white placeholder:text-slate-400",
+          "transition-all duration-300",
+          "focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/30",
+          "hover:border-slate-500",
+          className,
+        )}
+        {...props}
       />
-    </div>
-  );
-};
+    );
+  },
+);
 
 export default Input;

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
-import  Button  from "./../shared/button";
+import Button from "./../shared/button";
 import { portfolioData } from "../../data/portfolioData";
-// import { portfolioData } from "../data/mock";
+import resume from "./../../assets/NitinKumarFED.pdf";
 
 const Hero = () => {
   const heroRef = useRef(null);
@@ -54,8 +54,8 @@ const Hero = () => {
             {/* Welcome badge */}
             <div className="inline-flex items-center space-x-2 px-4 py-2 bg-slate-800/50 backdrop-blur-sm border border-cyan-500/20 rounded-full animate-fade-in">
               <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-cyan-500" />
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-600 opacity-75" />
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />
               </span>
               <span className="text-sm text-slate-300">
                 Available for opportunities
@@ -66,7 +66,7 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold">
                 <span className="block text-white">Hi, I'm</span>
-                <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient">
+                <span className="block bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent animate-gradient">
                   {personal.name}
                 </span>
               </h1>
@@ -82,18 +82,25 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4">
               <Button
                 onClick={scrollToContact}
-                className="group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-6 text-lg"
+                className="flex gap-1 items-center group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-3 text-lg"
               >
                 Get In Touch
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button
-                variant="outline"
-                className="border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 px-8 py-6 text-lg"
+              <a
+                href={resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
               >
-                <Download className="mr-2 w-5 h-5" />
-                Download CV
-              </Button>
+                <Button
+                  variant="outline"
+                  className="flex gap-1 items-center border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 px-8 py-3 text-lg"
+                >
+                  <Download className="mr-2 w-5 h-5" />
+                  Download CV
+                </Button>
+              </a>
             </div>
 
             {/* Social links */}
@@ -101,7 +108,7 @@ const Hero = () => {
               {[
                 {
                   icon: Github,
-                  url: "https://github.com/nitinkumar",
+                  url: "https://github.com/",
                   label: "GitHub",
                 },
                 {

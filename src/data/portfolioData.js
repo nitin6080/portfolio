@@ -10,7 +10,7 @@ export const portfolioData = {
     email: "nitin.ku25@gmail.com",
     phone: "9113707856",
     linkedin: "linkedin.com/in/nitinkumarshukla",
-    github: "github.com/nitinkumar",
+    github: "github.com/",
     yearsOfExperience: 3,
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Nitin",
   },
@@ -18,12 +18,12 @@ export const portfolioData = {
   // About Section
   about: {
     summary:
-      "Front-End Engineer with 3 years of experience building scalable, performance-driven web applications for enterprise platforms. Skilled in React.js, Next.js, and Redux with experience in Micro Front-End Architecture, Core Web Vitals optimization, and modular UI development.",
+      "Front-End Engineer with 3 years of experience building scalable, performance-driven web applications for enterprise platforms. Skilled in React.js, Next.js and Redux with experience in Micro Front-End Architecture, Core Web Vitals optimization and modular UI development.",
     description:
-      "I specialize in transforming complex requirements into elegant, performant user interfaces. My expertise lies in building enterprise-grade applications that prioritize both user experience and technical excellence. I'm passionate about Core Web Vitals optimization, modern architecture patterns, and creating accessible web experiences.",
+      "I specialize in transforming complex requirements into elegant, performant user interfaces. My expertise lies in building enterprise-grade applications that prioritize both user experience and technical excellence. I'm passionate about Core Web Vitals optimization, modern architecture patterns and creating accessible web experiences.",
     highlights: [
       "3+ years of professional front-end development",
-      "Expert in React.js, Next.js, and modern JavaScript",
+      "Expert in React.js, Next.js and modern JavaScript",
       "Micro Front-End Architecture implementation",
       "Core Web Vitals optimization specialist",
       "Proven track record in enterprise applications",
@@ -103,9 +103,15 @@ export const portfolioData = {
       ],
       technologies: [
         "React.js",
+        "Next.js",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "RESTful API integration",
         "Redux",
         "Tailwind CSS",
-        "React Query",
+        "TanStack/React Query",
         "Micro Frontends",
       ],
     },
@@ -138,7 +144,13 @@ export const portfolioData = {
         "Collaborated within a team to design and implement pixel-perfect, responsive front-end experiences for key corporate and client websites.",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-      technologies: ["React.js", "Next.js", "Tailwind CSS", "Redux", "React/TanStack Query"],
+      technologies: [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Redux",
+        "React/TanStack Query",
+      ],
       features: [
         "Pixel-perfect responsive design",
         "Optimal Core Web Vitals scores",

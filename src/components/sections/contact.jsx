@@ -107,7 +107,7 @@ const Contact = () => {
             }`}
           >
             Get In{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
               Touch
             </span>
           </h2>
@@ -115,7 +115,7 @@ const Contact = () => {
             Have a project in mind or want to collaborate? Let's build something
             amazing together!
           </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mt-4" />
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 mx-auto rounded-full mt-4" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

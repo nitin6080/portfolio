@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 // import { portfolioData } from "../data/mock";
 import { ExternalLink, Github, TrendingUp, ArrowRight } from "lucide-react";
-import Button  from "./../shared/button";
+import Button from "./../shared/button";
 import { portfolioData } from "../../data/portfolioData";
 
 const Projects = () => {
@@ -51,14 +51,14 @@ const Projects = () => {
         {/* Section header */}
         <div className="text-center mb-12">
           <h2
-            className={`text-4xl md:text-5xl font-bold text-white mb-4 transition-all duration-700 ${
+            className={`text-4xl md:text-5xl font-cormorant italic font-serif font-medium tracking-wide text-white mb-4 transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
             }`}
           >
             Featured{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 bg-clip-text text-transparent">
               Projects
             </span>
           </h2>
@@ -66,7 +66,7 @@ const Projects = () => {
             Enterprise applications and personal projects showcasing technical
             expertise
           </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mt-4" />
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 mx-auto rounded-full mt-4" />
         </div>
 
         {/* Category filter */}
@@ -196,7 +196,7 @@ const Projects = () => {
                   real-world problem-solving.
                 </p>
                 <Link to="/live-projects">
-                  <Button className="group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-6 text-lg">
+                  <Button className="tracking-wide group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-6 text-lg flex gap-1 items-center">
                     View Live Projects
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
