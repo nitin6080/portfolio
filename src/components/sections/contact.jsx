@@ -242,7 +242,7 @@ const Contact = () => {
           <p className="text-slate-500 text-xs uppercase tracking-widest mb-1">
             {info.label}
           </p>
-          <p className="text-white font-medium text-sm leading-snug break-all">
+          <p className="text-white tracking-wide font-medium text-sm leading-snug break-all">
             {info.value}
           </p>
         </div>
@@ -351,7 +351,7 @@ const Contact = () => {
                     : "opacity-0 translate-y-8"
                 }`}
               >
-                <h3 className="text-xl font-bold text-white mb-6 text-center">
+                <h3 className="text-xl font-semibold tracking-wide text-white mb-6 text-center">
                   Connect with me on Social Media
                 </h3>
                 <div className="flex gap-4">
