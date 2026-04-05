@@ -220,7 +220,8 @@ const Contact = () => {
       label: "Location",
       value: personal.location,
       // Opens Google Maps → Silkboard, Bengaluru
-      link: "https://www.google.com/maps/search/Silkboard,+Bengaluru,+Karnataka,+India",
+      link: "https://www.google.com/maps/place/Chancery+Promotions+PG+for+Gents+In+Bommanahalli/@12.9089048,77.6234649,123m/data=!3m1!1e3!4m15!1m8!3m7!1s0x3bae14ee6648ecc7:0x306998e6d64d5ab9!2sNGR+Layout,+Bommanahalli,+Bengaluru,+Karnataka+560068!3b1!8m2!3d12.9106725!4d77.6235413!16s%2Fg%2F12hlwwlnr!3m5!1s0x3bae14ee62dca6e7:0x78c1c629dddc6853!8m2!3d12.9086513!4d77.6237399!16s%2Fg%2F11bwkz5zwx?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D",
+      // "https://www.google.com/maps/search/Silkboard,+Bengaluru,+Karnataka,+India",
       isEmail: false,
       color: "text-purple-400",
       iconBg: "bg-purple-500/15",
