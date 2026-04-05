@@ -352,7 +352,7 @@ const Contact = () => {
                 }`}
               >
                 <h3 className="text-xl font-bold text-white mb-6 text-center">
-                  Connect on Social
+                  Connect with me on Social Media
                 </h3>
                 <div className="flex gap-4">
                   {[
@@ -362,12 +362,12 @@ const Contact = () => {
                       label: "LinkedIn",
                       hover: "hover:text-blue-400 hover:border-blue-500/50",
                     },
-                    {
-                      icon: Github,
-                      url: `https://${personal.github}`,
-                      label: "GitHub",
-                      hover: "hover:text-slate-200 hover:border-slate-500/50",
-                    },
+                    // {
+                    //   icon: Github,
+                    //   url: `https://${personal.github}`,
+                    //   label: "GitHub",
+                    //   hover: "hover:text-slate-200 hover:border-slate-500/50",
+                    // },
                   ].map((social) => {
                     const Icon = social.icon;
                     return (
