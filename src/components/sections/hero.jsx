@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import Button from "./../shared/button";
 import { portfolioData } from "../../data/portfolioData";
-import resume from "./../../assets/NitinKumarFED.pdf";
+import resume from "./../../assets/NitinKumarFrontEndEngineer.pdf";
 
 const Hero = () => {
   const heroRef = useRef(null);

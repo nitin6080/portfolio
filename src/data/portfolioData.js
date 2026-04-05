@@ -4,7 +4,7 @@ export const portfolioData = {
   // Personal Information
   personal: {
     name: "Nitin Kumar",
-    title: "Front-End Engineer / Front-End Dev",
+    title: "Front-End Engineer",
     tagline: "Crafting Scalable Solutions, One Pixel at a Time",
     location: "Bengaluru, India",
     email: "nitin.ku25@gmail.com",
@@ -60,12 +60,12 @@ export const portfolioData = {
       category: "Design & UI",
       icon: "Palette",
       technologies: [
-        { name: "Tailwind CSS", level: 95 },
+        { name: "Tailwind CSS", level: 100 },
         { name: "Material UI", level: 85 },
         { name: "Responsive Design", level: 95 },
         { name: "Accessibility (a11y)", level: 90 },
-        { name: "Motion Design", level: 85 },
-        { name: "Interaction Design", level: 85 },
+        { name: "CSS Animations", level: 85 },
+        { name: "UI Micro-interactions", level: 85 },
       ],
     },
     {
@@ -74,10 +74,10 @@ export const portfolioData = {
       technologies: [
         { name: "Git/GitHub", level: 90 },
         { name: "ES Lint", level: 85 },
-        { name: "RESTful APIs", level: 90 },
+        { name: "RESTful APIs Integration", level: 90 },
         { name: "Agile/CI-CD", level: 85 },
-        { name: "Data Structures", level: 80 },
-        { name: "AG Grid", level: 85 },
+        { name: "Data Structures and Algorithms", level: 80 },
+        { name: "AG Grid", level: 100 },
       ],
     },
   ],
@@ -94,12 +94,17 @@ export const portfolioData = {
       description:
         "Contributong to front-end development for enterprise platforms with focus on performance and scalability.",
       achievements: [
-        "Developed scalable front-end modules for enterprise platforms, improving load times and maintaining top-tier Core Web Vitals (LCP/CLS)",
-        "Implemented modular components using React.js, Redux and Tailwind CSS, ensuring accessibility, responsiveness and maintainability",
-        "Utilized React Query for efficient API caching and asynchronous state management, reducing redundant API calls",
-        "Optimized complex state updates by introducing memoized Redux selectors (Reselect), improving render performance",
-        "Collaborated with backend and DevOps teams to ensure smooth API integration and reliable CI/CD deployments",
-        "Contributed to adoption of Micro-Frontend Architecture, enabling independent module deployment",
+        "Developed scalable front-end modules for enterprise and client-facing platforms, improving load times and maintaining top-tier Core Web Vitals (LCP/CLS).",
+        // "Implemented modular components using React.js, Redux and Tailwind CSS, ensuring accessibility, responsiveness and maintainability",
+        "Implemented modular components using React.js, Redux and Tailwind CSS, ensuring WCAG-compliant accessibility and cross-browser consistency.",
+        // "Utilized React Query for efficient API caching and asynchronous state management, reducing redundant API calls",
+        "Utilized React Query for efficient API caching, asynchronous state management, reducing redundant API calls through stale-time configuration and query invalidation strategies. ",
+        // "Optimized complex state updates by introducing memoized Redux selectors (Reselect), improving render performance",
+        "Optimized complex state updates by introducing memoized Redux selectors (Reselect), improving render performance and reducing total render time.",
+        // "Collaborated with backend and DevOps teams to ensure smooth API integration and reliable CI/CD deployments",
+        "Collaborated with backend and dev-ops teams to ensure smooth API integration, secured data flow and reliable CI/CD deployments. ",
+        // "Contributed to adoption of Micro-Frontend Architecture, enabling independent module deployment",
+        "Contributed to implementing Webpack Module Federation-based Micro-Frontend Architecture, enabling independent deployment of UI modules across teams.",
       ],
       technologies: [
         "React.js",
@@ -125,10 +130,10 @@ export const portfolioData = {
       description:
         "Worked on AT&T network deployment projects across multiple U.S. regions.",
       achievements: [
-        "Drafted AT&T blueprints for network deployment in U.S.A. regions (Missouri, Kansas, Arkansas)",
-        "Utilized AT&T platforms (ARAMIS-DT, MIC, CSV) and Google Earth Pro for fiber route implementation",
-        "Ensured fulfillment of service standards through detailed inspection and mapping",
-        "Contributed to activation maps ensuring reliable network deployment",
+        "Drafted AT&T blueprints for network deployment in U.S.A. regions of Missouri, Kansas and Arkansas.",
+        "Utilized AT&T technologies (like ARAMIS-DT, MIC, CSV) and Google Earth Pro for fiber route blueprint drafting.",
+        "Ensured fulfillment of service standards through detailed inspection and mapping.",
+        "Contributed to activation maps ensuring reliable network deployment.",
       ],
       technologies: ["ARAMIS-DT", "MIC", "CSV", "Google Earth Pro"],
     },
@@ -193,7 +198,7 @@ export const portfolioData = {
       description:
         "Built a comprehensive analytics dashboard with real-time data visualization and interactive charts for business intelligence.",
       image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+        "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=1074",
       technologies: [
         "React.js",
         "React Apex Charts",
@@ -216,7 +221,7 @@ export const portfolioData = {
     degree: "Bachelor of Technology",
     field: "Electronics & Communication Engineering",
     institution: "Chandigarh Engineering College, Mohali",
-    university: "I.K. Gujral Punjab Technical University",
+    university: "I.K. Gujral Punjab Technical University, Kapurthala",
     period: "2014 – 2018",
     grade: "First Division (77.6%)",
     coursework: ["C", "C++", "Data Structures and Algorithms"],
@@ -225,7 +230,7 @@ export const portfolioData = {
   // Statistics for hero section
   stats: [
     { label: "Years Experience", value: "3+" },
-    { label: "Projects Delivered", value: "15+" },
+    { label: "Projects Delivered", value: "10+" },
     { label: "Core Web Vitals", value: "95+" },
     { label: "Client Satisfaction", value: "100%" },
   ],

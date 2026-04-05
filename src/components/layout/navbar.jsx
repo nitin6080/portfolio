@@ -25,7 +25,7 @@ const Navbar = () => {
     { name: 'About', path: '/', hash: '#about' },
     { name: 'Skills', path: '/', hash: '#skills' },
     { name: 'Experience', path: '/', hash: '#experience' },
-    { name: 'Projects', path: '/', hash: '#projects' },
+    // { name: 'Projects', path: '/', hash: '#projects' },
     { name: 'Contact', path: '/', hash: '#contact' },
     // { name: 'Live Projects', path: '/', hash: '#live-projects' },
   ];
@@ -79,12 +79,12 @@ const Navbar = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 group-hover:w-full transition-all duration-300" />
               </Link>
             ))}
-            <Link to="/live-projects">
+            {/* <Link to="/live-projects">
               <Button className="ml-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white py-2! px-3! rounded-lg! tracking-wide font-medium font-inter italic text-sm flex gap-1 items-center">
                 <Activity size={18}/>
                 Live Projects
               </Button>
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -114,11 +114,11 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Link to="/live-projects" onClick={() => setIsOpen(false)}>
+          {/* <Link to="/live-projects" onClick={() => setIsOpen(false)}>
             <Button className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white">
               Live Projects
             </Button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>
