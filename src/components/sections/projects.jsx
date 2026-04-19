@@ -134,7 +134,7 @@ const Projects = () => {
                   {/* Features */}
                   <div className="mb-4 flex-1">
                     <div className="flex flex-wrap gap-1">
-                      {project.features.slice(0, 3).map((feature, idx) => (
+                      {project.features.slice(0, 7).map((feature, idx) => (
                         <span
                           key={idx}
                           className="px-2 py-1 bg-slate-700/30 rounded text-slate-400 text-xs"
