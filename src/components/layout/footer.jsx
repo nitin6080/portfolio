@@ -136,7 +136,7 @@ const Footer = () => {
     { name: "About", hash: "#about" },
     { name: "Skills", hash: "#skills" },
     { name: "Experience", hash: "#experience" },
-    // { name: "Projects", hash: "#projects" },
+    { name: "Projects", hash: "#projects" },
     { name: "Contact", hash: "#contact" },
   ];
 

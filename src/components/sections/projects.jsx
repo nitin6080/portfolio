@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-// import { portfolioData } from "../data/mock";
 import { ExternalLink, Github, TrendingUp, ArrowRight } from "lucide-react";
 import Button from "./../shared/button";
 import { portfolioData } from "../../data/portfolioData";
@@ -160,7 +159,17 @@ const Projects = () => {
                       </p>
                     </div>
                   )}
-
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-4 inline-flex items-center gap-2 text-sm text-cyan-400 hover:text-cyan-300 transition-colors"
+                    >
+                      <ExternalLink size={16} />
+                      View Live
+                    </a>
+                  )}
                   {/* Technologies */}
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech, idx) => (
@@ -179,7 +188,7 @@ const Projects = () => {
         </div>
 
         {/* Live Projects CTA */}
-        <div className="relative mt-16">
+        {/* <div className="relative mt-16">
           <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl blur opacity-20" />
           <div className="relative bg-slate-800/50 backdrop-blur-sm border border-cyan-500/30 rounded-3xl p-8 md:p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -203,7 +212,7 @@ const Projects = () => {
                 </Link>
               </div>
 
-              {/* Preview cards */}
+              
               <div className="grid grid-cols-2 gap-4">
                 {[1, 2, 3, 4].map((i) => (
                   <div
@@ -220,7 +229,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

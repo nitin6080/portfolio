@@ -32,7 +32,7 @@ const LiveProjects = () => {
           <Link to="/">
             <Button
               variant="outline"
-              className="mb-8 border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10"
+              className="mb-8 border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 flex gap-2"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Home
