@@ -1,8 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
-import { ArrowRight, Download, Github, Linkedin, Mail, X, Copy, Check, ExternalLink } from "lucide-react";
+import {
+  ArrowRight,
+  Download,
+  Github,
+  Linkedin,
+  Mail,
+  X,
+  Copy,
+  Check,
+  ExternalLink,
+} from "lucide-react";
 import Button from "./../shared/button";
 import { portfolioData } from "../../data/portfolioData";
-import resume from "./../../assets/NitinKumarFrontEndEngineer.pdf";
+import resume from "./../../assets/Nitin_Kumar_FrontEndEngineer_resume.pdf";
 
 // Mail service icons (same as Contact.jsx & Footer.jsx)
 const GmailIcon = () => (
@@ -205,7 +215,7 @@ const Hero = () => {
               <div className="flex flex-wrap gap-4">
                 <Button
                   onClick={scrollToContact}
-                  className="flex gap-1 items-center group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-3 text-lg"
+                  className="flex gap-1 items-center group bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-3 text-lg cursor-pointer"
                 >
                   Get In Touch
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -218,7 +228,7 @@ const Hero = () => {
                 >
                   <Button
                     variant="outline"
-                    className="flex gap-1 items-center border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 px-8 py-3 text-lg"
+                    className="flex gap-1 items-center border-cyan-500/50 text-cyan-400 hover:bg-cyan-500/10 px-8 py-3 text-lg cursor-pointer"
                   >
                     <Download className="mr-2 w-5 h-5" />
                     Download CV
@@ -255,7 +265,7 @@ const Hero = () => {
                       <button
                         key={social.label}
                         onClick={() => setShowMailModal(true)}
-                        className="p-3 rounded-lg bg-slate-800/50 backdrop-blur-sm border border-slate-700 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 hover:scale-110 transition-all duration-300"
+                        className="p-3 rounded-lg bg-slate-800/50 backdrop-blur-sm border border-slate-700 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 hover:scale-110 transition-all duration-300 cursor-pointer"
                         aria-label={social.label}
                       >
                         <Icon className="w-5 h-5" />
@@ -268,7 +278,7 @@ const Hero = () => {
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-3 rounded-lg bg-slate-800/50 backdrop-blur-sm border border-slate-700 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 hover:scale-110 transition-all duration-300"
+                      className="p-3 rounded-lg bg-slate-800/50 backdrop-blur-sm border border-slate-700 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 hover:scale-110 transition-all duration-300 cursor-pointer"
                       aria-label={social.label}
                     >
                       <Icon className="w-5 h-5" />

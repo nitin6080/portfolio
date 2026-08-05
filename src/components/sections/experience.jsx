@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Briefcase, MapPin, Calendar, ChevronRight } from "lucide-react";
 import { portfolioData } from "../../data/portfolioData";
+import profImgTwo from "./../../assets/profPicWithShades.jfif";
 
 const Experience = () => {
   const { experience } = portfolioData;
@@ -32,6 +33,11 @@ const Experience = () => {
       ref={sectionRef}
       className="py-24 bg-gradient-to-b from-slate-950 to-slate-900 relative overflow-hidden"
     >
+      <img
+        src={profImgTwo}
+        alt="profImg"
+        className="hidden xl:flex xl:absolute inset-0 bottom-0 w-full"
+      />
       {/* Background decoration */}
       <div className="absolute top-0 left-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
@@ -51,8 +57,8 @@ const Experience = () => {
               Experience
             </span>
           </h2>
-          <p className="text-slate-400 max-w-2xl mx-auto">
-            {experience.length+1} years of professional experience building
+          <p className="text-slate-400 xl:text-white max-w-2xl mx-auto">
+            {experience.length + 1} years of professional experience building
             enterprise applications
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-purple-600 mx-auto rounded-full mt-4" />

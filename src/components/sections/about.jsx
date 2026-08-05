@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { CheckCircle2, Mail, Phone } from "lucide-react";
 import { portfolioData } from "../../data/portfolioData";
-import profImg from "./../../assets/nitinKumarShukla.jfif";
+// import profImg from "./../../assets/nitinKumarShukla.jfif";
+import profImg from "./../../assets/profPicBlazerBrown.jfif";
 
 const About = () => {
   const { about, personal, education } = portfolioData;
@@ -74,7 +75,7 @@ const About = () => {
                       />
                     </div>
                     <div className="absolute bottom-1 right-1 bg-green-500 w-10 h-10 rounded-full border-4 border-slate-800 flex items-center justify-center">
-                      <span className="text-sm font-semibold text-white">
+                      <span className="text-[14px] font-semibold text-white">
                         {personal.yearsOfExperience}+
                       </span>
                     </div>

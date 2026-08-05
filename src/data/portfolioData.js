@@ -18,7 +18,7 @@ export const portfolioData = {
   // About Section
   about: {
     summary:
-      "Front-End Engineer with 3 years of experience building scalable, performance-driven web applications for enterprise platforms. Skilled in React.js, Next.js and Redux with experience in Micro Front-End Architecture, Core Web Vitals optimization and modular UI development.",
+      "Front-End Engineer with 3 years of experience building scalable, performance-driven web applications for enterprise platforms.Specialized in front-end performance engineering — Core Web Vitals optimization, render performance and micro-frontend architecture at scale. Skilled in React.js, Next.js and Redux with experience in Micro Front-End Architecture, Core Web Vitals optimization and modular UI development.",
     description:
       "I specialize in transforming complex requirements into elegant, performant user interfaces. My expertise lies in building enterprise-grade applications that prioritize both user experience and technical excellence. I'm passionate about Core Web Vitals optimization, modern architecture patterns and creating accessible web experiences.",
     highlights: [
