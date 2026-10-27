@@ -1,4 +1,5 @@
 // Mock data for portfolio - will be replaced with backend integration later
+import authImg from "./../assets/authentiscan.png";
 
 export const portfolioData = {
   // Personal Information
@@ -194,11 +195,11 @@ export const portfolioData = {
     {
       id: 3,
       title: "AuthentiScan",
-      company: "Personal Project",
+      company: "Personal Sample",
       description:
         "AI-powered media authenticity detection web application. Users upload photos, videos and documents to check if they are AI-generated or real.",
-      image:
-        "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=1074",
+      image: authImg,
+      //"https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=1074",
       technologies: [
         "React.js",
         "Firebase",
