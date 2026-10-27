@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import Button from "./../shared/button";
 import { portfolioData } from "../../data/portfolioData";
-import resume from "./../../assets/Nitin_Kumar_FrontEndEngineer_resume.pdf";
+import resume from "./../../assets/Nitin_Kumar_FrontEndEngineer_Resume.pdf";
 
 // Mail service icons (same as Contact.jsx & Footer.jsx)
 const GmailIcon = () => (
